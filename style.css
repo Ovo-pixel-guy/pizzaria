@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap');
+
+h1 {
+    text-align: center;
+    font-family: 'Changa One';
+}
+
+.F_IMG {
+    display: flex;
+    justify-content: space-between; /* Distribui as 4 pizzas de ponta a ponta */
+    gap: 10px;
+}
+
+.i1, .i2, .i3, .i4,
+.i5, .i6, .i7, .i8 {
+  width: 22%;
+  height: auto;
+  padding-left: 0;
+}
+
+.F_P  {
+    display: flex;
+    gap: 450px;
+    text-align: center;
+    justify-content: space-between;
+    gap: 10px;
+    font-family: 'Changa One';
+}
+
+.F_P p {
+    width: 24%;
+    text-align: center; 
+    font-size: 22px;
+}
+
+.btn-whatsapp {
+    display: inline-flex;          /* Alinha o ícone e o texto lado a lado */
+    align-items: center;           /* Centraliza ícone e texto na vertical */
+    gap: 10px;                     /* Espaço entre o logo do zap e o texto */
+    background-color: #25D366;     
+    color: #ffffff;                
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;         
+    padding: 12px 28px;            
+    border-radius: 50px;           
+    border: 2px solid #25D366;     
+    transition: all 0.3s ease;     
+    cursor: pointer;
+}
+
+/* Efeito ao passar o mouse */
+.btn-whatsapp:hover {
+    background-color: #ffffff;     
+    color: #25D366;                
+    border: 2px solid #25D366;     
+}
+
+.F_P2  {
+    display: flex;
+    gap: 450px;
+    text-align: center;
+    justify-content: space-between;
+    gap: 10px;
+    font-family: 'Changa One';
+}
+
+.F_P2 p {
+    width: 24%;
+    text-align: center; 
+    font-size: 22px;
+}
+
+.F_IMG2 {
+    display: flex;
+    justify-content: space-between; 
+    gap: 10px;
+}
+
+.hist {
+    text-align: center;
+    background-color: crimson;
+    font-style: white;
+    padding: 10px;
+    color: white;
+    width: 100%;
+    font-family: 'Changa One';
+}
+
+.hist p {
+    max-width: 750px;
+    margin: 0 auto 30px auto;
+}
+
+.botoes {
+    text-align: center;
+    padding: 30px;
+    font-family: 'Changa One';
+}
